@@ -69,10 +69,7 @@ This is an Appium plugin designed to manage and create driver sessions on connec
 
 Use the navigation on the left or proceed to [Setup](setup.md)!
 
-**Big thanks to the following organizations for their support to the project with their open source licenses:**
-<h3>
-	<a href= "https://www.browserstack.com"><img src="https://maddyness-uk.twic.pics/2021/06/Screenshot-2021-06-21-at-20.14.46.png?twic=v1/resize=630" alt="ATD" width="45%" align="top"></a>
-</h3>
+**Big thanks to the following organizations for their support to the project**
 
 <h3>
 	<a href= "https://www.lambdatest.com"><img src="assets/images/lt.png" alt="ATD" width="45%" align="top"></a>
