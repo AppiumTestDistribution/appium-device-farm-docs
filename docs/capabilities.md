@@ -21,3 +21,11 @@ title: Capabilities
 | df:options                   | Set all device farm related capabilities as object. `df:options` is optional argument. ex: `'df:options': { filterByHost: '192.168.0.226', recordVideo: true },`                                                                                                   |
 | df:saveDeviceLogs            | Save device logs, app profiling for android. `df:options` is optional argument. ex: `'df:options': { saveDeviceLogs: true },`. Default value is `false`                                                                                                            |
 | df:tags                      | Will consider the devices only with the tagged specified. `df:tags` is optional argument. ex: `'df:tags': ['team1','AndroidGroup'],`. Default value is empty array.                                                                                                |
+| df:androidCleanUpApps        | List of Android packages to uninstall before session starts. Can be used in `df:options`. Overrides server configuration if provided. ex: `'df:options': { androidCleanUpApps: ['com.example.app'] }`                                                              |
+| df:iosCleanUpApps            | List of iOS bundle IDs to uninstall before session starts. Can be used in `df:options`. Overrides server configuration if provided. ex: `'df:options': { iosCleanUpApps: ['com.example.app'] }`                                                                    |
+
+### Cleanup Apps Precedence
+If `androidCleanUpApps` or `iosCleanUpApps` are provided in `df:options` (session capabilities), they will take precedence over the server configuration.
+- To use server configuration: Do not provide these keys in `df:options`.
+- To override server configuration: Provide the list of apps in `df:options`.
+- To disable cleanup for a specific session (when server config has cleanup apps): Provide an empty array `[]` in `df:options`.
