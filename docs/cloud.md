@@ -25,13 +25,14 @@ CLOUD_KEY="apiKey" CLOUD_USERNAME="useremail" appium server -ka 800 --use-plugin
 ```
 Refer on sauce config [here](https://github.com/AppiumTestDistribution/appium-device-farm/blob/main/serverConfig/sauce-config.json)
 
-### LambdaTest
+### TestMu AI (formerly LambdaTest)
 
 ```
 CLOUD_KEY="apiKey" CLOUD_USERNAME="useremail" appium server -ka 800 --use-plugins=device-farm --config ./serverConfig/lt-config.json -pa /wd/hub
 ```
 Make sure all `appiumVersion: 2.0` in your capabilities.
-Refer on LambdaTest config [here](https://github.com/AppiumTestDistribution/appium-device-farm/blob/main/serverConfig/lt-config.json)
+Refer on TestMu AI config [here](https://github.com/AppiumTestDistribution/appium-device-farm/blob/main/serverConfig/lt-config.json)
+The `cloudName` value stays `lambdatest` after the rebrand.
 
 
 ### HeadSpin

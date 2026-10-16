@@ -69,8 +69,12 @@ This is an Appium plugin designed to manage and create driver sessions on connec
 
 Use the navigation on the left or proceed to [Setup](setup.md)!
 
+## Run on the TestMu AI Mobile Device Cloud
+
+Need more devices than you have on your desk? [TestMu AI](https://www.testmuai.com) (formerly LambdaTest) offers a mobile device cloud with thousands of real Android and iOS devices, so you can run your Appium tests at scale without maintaining a device lab. Appium Device Farm plugs straight into it: point the plugin at the TestMu AI hub and your sessions are allocated to cloud devices just like local ones. See [Cloud](cloud.md#testmu-ai-formerly-lambdatest) for setup.
+
 **Big thanks to the following organizations for their support to the project**
 
 <h3>
-	<a href= "https://www.lambdatest.com"><img src="assets/images/lt.png" alt="ATD" width="45%" align="top"></a>
+	<a href="https://www.testmuai.com"><img src="assets/images/testmu-ai-logo-black.svg#only-light" alt="TestMu AI" width="35%" align="top"><img src="assets/images/testmu-ai-logo-white.svg#only-dark" alt="TestMu AI" width="35%" align="top"></a>
 </h3>
